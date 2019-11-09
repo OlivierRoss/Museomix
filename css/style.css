@@ -7,8 +7,16 @@
   top: 0;
   left: 0;
   bottom: 0;
+  transition: 20s;
+}
+
+#caroussel.gauche {
+  left: -2000px;
 }
 
 #caroussel img {
   float: left;
 }
+
+
+
