@@ -1,5 +1,13 @@
 body { 
   margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  word-spacing: -10px;
+}
+h1, h2, h3 {
+  font-family: 'Space Mono', monospace;
 }
 
 #bouton_demarrer {
@@ -29,6 +37,7 @@ nav {
   display: inline;
   float: left;
   height: calc(100vh - 60px);
+  padding: 1px;
 }
 
 #animation {
