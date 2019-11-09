@@ -1,4 +1,4 @@
-window.onload = function () {
+function animer () {
   document.getElementById("caroussel").className = "gauche";
   setTimeout(function () {
     document.getElementById("caroussel").className = "";
