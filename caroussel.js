@@ -20,3 +20,5 @@ function vers_gauche (gauche) {
 }
 
 window.onload = animer;
+
+
