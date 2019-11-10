@@ -5,19 +5,25 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/photos.css">
+    <script src="jquery-3.4.1.min.js"></script>
     <script src="owl.carousel.min.js"></script>
   </head>
   <body>
-      <div class="container">
-        <div id="modele-3d">Modele 3-D</div>
-        <div id="images-techniques">
-          <div class="container-images">
-            <img src="images/logo.png">
-            <img src="images/logo.png">
-            <img src="images/logo.png">
-          </div>
+    <div class="container owl-carousel">
+      <div id="modele-3d">Modele 3-D</div>
+      <div id="images-techniques">
+        <div class="container-images">
+          <img src="images/logo.png">
+          <img src="images/logo.png">
+          <img src="images/logo.png">
         </div>
       </div>
+    </div>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel();
+      });
+    </script>
   </body>
 </html>
 
