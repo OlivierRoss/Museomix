@@ -77,23 +77,12 @@ nav {
   height:100%;
 }
 
-#watermark-accueil {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 2;
-
-  background-image: url('../images/vue_ecran_accueil.png');
-  background-size: cover;
-}
-
 #texte-accueil {
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 17%;
+  left: 8%;
   color: #F4CE25;
+  font-size: 1.2em;
 }
 
 #bouton-demarrer {
