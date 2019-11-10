@@ -22,7 +22,7 @@ nav {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: calc(100vh - 60px);
+  height: 100vh;
 }
 
 #bouton-retour {
@@ -32,27 +32,28 @@ nav {
 }
 
 .bouton {
-  border: 3px solid black;
   padding: 10px 15px;
   color: black;
   font-size: 1.2em;
   text-decoration: none;
+  background-color: yellow;
+  font-family: 'Space Mono', monospace;
 }
 
 #bouton-photos {
   position: absolute;
-  top: 5vh;
-  right: 25%;
+  top: 80vh;
+  left: 30%;
 }
 
 #bouton-fiche {
   position: absolute;
-  top: 5vh;
-  right: 15%;
+  top: 80vh;
+  right: 50%;
 }
 
 #bouton-defi {
   position: absolute;
-  top: 5vh;
-  right: 5%;
+  top: 80vh;
+  right: 35%;
 }

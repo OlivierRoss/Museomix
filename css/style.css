@@ -23,6 +23,7 @@ nav {
 #container-caroussel {
   position: relative;
   width: 100%;
+  height: 100vh;
 }
 
 #caroussel {
@@ -36,7 +37,7 @@ nav {
 #caroussel img {
   display: inline;
   float: left;
-  height: calc(100vh - 60px);
+  height: 100vh;
 }
 
 #animation {
@@ -52,4 +53,52 @@ nav {
   font-weight: bold;
   border: 2px solid black;
   padding: 5px;
+}
+
+.bouton {
+  border: 3px solid black;
+  padding: 10px 15px;
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#background-accueil {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height:100%;
+}
+
+#watermark-accueil {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+
+  bacground-image: url('../images/vue_ecran_accueil.png');
+  background-size: contain;
+}
+
+#texte-accueil {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: yellow;
+}
+
+#bouton-demarrer {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  color: yellow;
+  border-color: yellow;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 3;
 }
