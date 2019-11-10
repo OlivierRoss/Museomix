@@ -56,7 +56,7 @@ body {
 
 #choix-reponse {
   position: absolute;
-  top: 40vh;
+  top: 55vh;
   left: 10vw;
   display: flex;
   width: 30vw;
@@ -90,6 +90,6 @@ body {
 
 #reponse {
   position: absolute;
-  top: 70vh;
+  top: 80vh;
   left: 10vw;
 }
