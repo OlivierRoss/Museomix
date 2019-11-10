@@ -3,42 +3,31 @@
   <head>
     <title>Sous toutes réserves</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/fiche.css">
+    <link rel="stylesheet" href="css/defi.css">
   </head>
   <body>
     <div id="watermark-fiche"></div>
     <div id="container-gauche">
       <div class="container">
-        <img id="retour" src="images/back_virtual_visit2.png" >
-        <img id="img_skidoo" src="images/back_virtual_visit2.png" >
+        <a href="index.html"><img id="retour" src="images/back_virtual_visit2.png" ></a>
+        <video id="img_skidoo" width="600" autoplay>
+          <source src="video/skidoo.m4v" type="video/mp4">
+          <source src="video/skidoo.ogg" type="video/ogg">
+          Your browser does not support HTML5 video.
+        </video>
+        <img id="soulignement_skidoo" src="images/tech_size_bar.png" >
       </div>
     </div>
-        <div id="container-droite">
-          <div class="container">
-            <p id="nom">La toute premiere MOTONEIGE SKIDOO ELITE</p>
-            <div id="facts">
-              <p><span class="fait">Année : 2004</span><span class="fait" style="padding-left: 10px">Poids : 499 kg</span></p>
-              <p><span class="fait">Chassis : aluminium</span><span class="fait"> / Coque : aluminium</span></p>
-              <p><span class="fait">Capot/casserie : polyéthylène haute densité</span></p>
-              <p><span class="fait">Chenilles : 2; caoutchouc/acier</span></p>
-              <p><span class="fait">Ski : 2, plastique / Barbotins : plastique</span></p>
-              <p><span class="fait">Suspension avant : indépendante</span></p>
-              <p><span class="fait">Carburateur : injecteur</span></p>
-              <p><span class="fait">Lubrification : injection / Refroidissement liquide</span></p>
-              <p><span class="fait">Système d’échappement : silencieux</span></p>
-              <p><span class="fait">rransmission / entranement : TRA IV HD</span></p>
-              <p><span class="fait">Freins : disque double</span></p>
-            </div>
-            <p id="description">Après trois décennies, le retour d’une mo-<br>
-            toneige côte-à-côte au style intemporel. L’im-<br>
-            mense pare-brise avec vue panoramique protège<br>
-            les occupants pour leur plus grand confort. Le<br>
-            compartiment spacieux arrière permet d’apporter<br>
-            des bagages, de la nourriture et tout ce qu’il<br>
-            faut pour une superbe ballade d’un jour ou plus.<br>
-            </p>
-          </div>
+    <div id="container-droite">
+      <div class="container">
+        <p id="question">La toute premiere MOTONEIGE SKIDOO ELITE</p>
+        <div id="choix-reponse">
+          <div class="bouton">VRAI</div>
+          <div class="bouton">FAUX</div>
         </div>
+        <div id="description"> </div>
+      </div>
+    </div>
   </body>
 </html>
 

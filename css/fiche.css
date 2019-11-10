@@ -37,6 +37,13 @@ body {
   width: 20vw;
 }
 
+#soulignement_skidoo {
+  position: absolute;
+  left: 10vw;
+  top: 70vh;
+  width: 20vw;
+}
+
 #nom {
   position: absolute;
   top: 10vh;
