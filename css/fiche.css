@@ -60,7 +60,8 @@ body {
 }
 
 .fait {
-  padding: 2px;
+  font-family: 'Space Mono', monospace;
+  padding: 2px 10px;
   background-color: black;
   color: white;
   margin: 0px 4px;
