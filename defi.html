@@ -20,14 +20,25 @@
     </div>
     <div id="container-droite">
       <div class="container">
-        <p id="question">La toute premiere MOTONEIGE SKIDOO ELITE</p>
+        <p id="question">B5 Signifie que le véhicule est en bois et qu'il peut accueillir 5 personnes</p>
         <div id="choix-reponse">
-          <div class="bouton">VRAI</div>
-          <div class="bouton">FAUX</div>
+          <div id="vrai" onclick="vrai()" class="bouton">VRAI</div>
+          <div id="faux" onclick="faux()" class="bouton">FAUX</div>
         </div>
-        <div id="description"> </div>
+        <div id="reponse"></div>
       </div>
     </div>
+  <script>
+var reponse = document.getElementById("reponse");
+function vrai () {
+  reponse.innerHTML = "Bien joué!";
+  reponse.style.color = "green";
+}
+function faux () {
+ reponse.innerHTML = "En fait, le B signifie Bombardier, la fierté locale et le 5 indique le nombre de passagers que le véhicule peut accueillir";
+  reponse.style.color = "red";
+}
+  </script>
   </body>
 </html>
 

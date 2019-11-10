@@ -46,8 +46,12 @@ body {
 
 #question {
   position: absolute;
-  top: 10vh;
+  top: 20vh;
   left: 10vw;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.2em;
+  width: 50%;
+  text-align: center;
 }
 
 #choix-reponse {
@@ -71,7 +75,6 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: 2;
 
   background-image: url('../images/vue_TECH_B7.png');
   background-size: cover;
@@ -83,4 +86,10 @@ body {
   color: black;
   font-size: 1.2em;
   text-decoration: none;
+}
+
+#reponse {
+  position: absolute;
+  top: 70vh;
+  left: 10vw;
 }
