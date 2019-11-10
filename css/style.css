@@ -98,10 +98,40 @@ nav {
 
 #panorama_bas_gauche {
   position: absolute;
-  top: 90vh;
+  top: 80vh;
   left: 10vw;
   width: 10vw;
-  background-image: url('../css/panorama_angle_bas_gauche.png');
+  background-image: url('../images/panorama_angle_bas_gauche.png');
+  z-index: 2;
+  height: 10vh;
+}
+
+#panorama_bas_droite {
+  position: absolute;
+  top: 80vh;
+  left: 80vw;
+  width: 10vw;
+  background-image: url('../images/panorama_angle_bas_droite.png');
+  z-index: 2;
+  height: 10vh;
+}
+
+#panorama_haut_gauche {
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  width: 10vw;
+  background-image: url('../images/panorama_angle_haut_gauche.png');
+  z-index: 2;
+  height: 10vh;
+}
+
+#panorama_haut_droite {
+  position: absolute;
+  top: 10vh;
+  left: 80vw;
+  width: 10vw;
+  background-image: url('../images/panorama_angle_haut_droite.png');
   z-index: 2;
   height: 10vh;
 }
