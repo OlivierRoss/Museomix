@@ -25,8 +25,9 @@ body {
 
 #retour {
   position: absolute;
-  left: 10vw;
-  top: 20vh;
+  left: 5vw;
+  top: 10vh;
+  width: 85px;
 }
 
 #img_skidoo {

@@ -85,23 +85,23 @@ nav {
   left: 0;
   z-index: 2;
 
-  bacground-image: url('../images/vue_ecran_accueil.png');
-  background-size: contain;
+  background-image: url('../images/vue_ecran_accueil.png');
+  background-size: cover;
 }
 
 #texte-accueil {
   position: absolute;
   top: 10%;
   left: 10%;
-  color: yellow;
+  color: #F4CE25;
 }
 
 #bouton-demarrer {
   position: absolute;
   bottom: 10%;
   right: 10%;
-  color: yellow;
-  border-color: yellow;
+  color: #F4CE25;
+  border-color: #F4CE25;
   background-color: rgba(0,0,0,0.5);
   z-index: 3;
 }
