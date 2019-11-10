@@ -2,12 +2,6 @@ var gauche = 0;
 
 function animer () {
   vers_gauche(0);
-  changer_temps();
-}
-
-function changer_temps () {
-  document.getElementById("temps").innerHTML = md5(new Date());
-  setTimeout(changer_temps, 10);
 }
 
 function vers_gauche (gauche) {
